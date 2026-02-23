@@ -45,11 +45,12 @@ Tisk souřadnic proveďte na jeden řádek ve formátu "R1 C1 R2 C2", kde R1,C1 
 ### Příklad vstupů a výstupů bitmapy
 Textový soubor *obrazek.txt* s obsahem:
 
-4 5
-0 0 1 1 1
-0 0 1 0 1
-1 0 1 1 1
-1 1 1 1 1
+|   | 0 | 1 | 2 | 3 | 4 |
+|---|---|---|---|---|---|
+| 0 | 0 | 0 | 1 | 1 | 1 | 
+| 1 | 0 | 0 | 1 | 0 | 1 |
+| 2 | 1 | 0 | 1 | 1 | 1 |
+| 3 | 1 | 1 | 1 | 1 | 1 |
 
 reprezentuje bitmapový obrázek o 4 řádcích a 5 sloupcích s podobou takovou, že 0 reprezentují prázdné pole a 1 pole zaplněné
 
